@@ -1,0 +1,790 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  post:
+    type: page
+    label: Post
+    folder: _posts
+    match:
+      - 1999-06-21-404.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: number
+        name: title
+        label: Title
+        subtype: int
+      - type: string
+        name: permalink
+        label: Permalink
+  post_1:
+    type: page
+    label: Post 1
+    folder: _posts
+    match:
+      - 1999-06-21-archive.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: permalink
+        label: Permalink
+  post_2:
+    type: page
+    label: Post 2
+    folder: _posts
+    match:
+      - 1999-06-21-comments.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: permalink
+        label: Permalink
+  post_3:
+    type: page
+    label: Post 3
+    folder: _posts
+    match:
+      - 1999-06-21-merger.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: permalink
+        label: Permalink
+  post_4:
+    type: page
+    label: Post 4
+    folder: _posts
+    match:
+      - 1999-06-21-tags.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: object
+        name: jekyll-theme-WuK
+        label: Jekyll Theme Wu K
+        fields:
+          - type: boolean
+            name: sidebar_open
+            label: Sidebar Open
+      - type: string
+        name: permalink
+        label: Permalink
+  post_5:
+    type: page
+    label: Post 5
+    folder: _posts
+    match:
+      - 2017-10-04-C++51行贪吃蛇.md
+      - '2017-11-23-2017-2018 ACM-ICPC, NEERC, Northern Subregional Contest.md'
+      - 2017-11-27-补♂课第10场.md
+      - 2017-11-29-补♂课第11场.md
+      - 2017-12-13-NVCPC preview contest from Tailmon.md
+      - 2017-12-21-UVA-11275.md
+      - 2017-12-21-UVALive-4589.md
+      - 2017-12-21-UVALive-4973.md
+      - 2017-12-21-蓝书习题·第4章·几何问题.md
+      - 2017-12-24-补♂课第110场.md
+      - 2017-12-28-补♂课第111场.md
+      - 2018-03-30-UVA-11248.md
+      - 2018-08-08-2018 百度之星 程序设计大赛 - 资格赛.md
+      - 2018-08-14-2018 Multi-University Training Contest 1.md
+      - 2018-08-17-2018 Multi-University Training Contest 2.md
+      - 2018-08-18-2018 Multi-University Training Contest 3.md
+      - 2018-08-19-2018 Multi-University Training Contest 4.md
+      - 2018-08-20-2018 Multi-University Training Contest 5.md
+      - 2018-08-21-2018 Multi-University Training Contest 6.md
+      - 2018-08-22-2018 Multi-University Training Contest 7.md
+      - 2018-08-23-2018 Multi-University Training Contest 8.md
+      - 2018-08-24-2018 Multi-University Training Contest 10.md
+      - 2018-08-24-2018 Multi-University Training Contest 9.md
+      - 2018-08-25-2018中国大学生程序设计竞赛 - 网络选拔赛.md
+      - 2018-08-26-2012 ACM-ICPC Asia Dhaka Regional Contest.md
+      - 2018-08-27-2014 ACM-ICPC Asia Dhaka Regional Contest.md
+      - '2018-08-28-ACM ICPC 2013–2014, Northeastern European Regional Contest.md'
+      - 2018-08-31-2015 ACM-ICPC Asia Dhaka Regional Contest.md
+      - 2018-09-02-ACM-ICPC 2018 南京赛区网络预赛.md
+      - 2018-09-03-POJ-2823.md
+      - 2018-09-03-POJ-3250.md
+      - 2018-09-08-ACM-ICPC 2018 沈阳赛区网络预赛.md
+      - 2018-09-10-ACM-ICPC 2018 徐州赛区网络预赛.md
+      - 2018-09-19-ACM-ICPC 2018 焦作赛区网络预赛.md
+      - '2018-09-19-The 2018 ACM-ICPC Asia Qingdao Regional Contest, Online.md'
+      - 2018-09-23-ACM-ICPC 2018 北京赛区网络预赛.md
+      - 2018-10-01-Ural Regional School Programming Contest 2011.md
+      - 2018-10-05-Ural Championship 2011.md
+      - >-
+        2018-10-06-2009-2010 ACM-ICPC Northeastern European Regional Contest
+        (NEERC 09).md
+      - 2018-10-06-Ural Championship 2012.md
+      - >-
+        2018-10-16-2012-2013 ACM-ICPC, Central Europe Regional Contest (CERC
+        12).md
+      - 2018-10-18-HYSBZ-3223.md
+      - 2018-10-18-HYSBZ-3224.md
+      - 2018-10-18-OpenJ_Bailian-4090.md
+      - 2018-10-20-Ural Championship 2010.md
+      - >-
+        2018-10-21-2017-2018 ACM-ICPC Southeastern European Regional Programming
+        Contest (SEERC 2017).md
+      - 2018-10-22-CodeForces-896C.md
+      - 2018-10-22-HYSBZ-4592.md
+      - 2018-10-24-UVA-11426.md
+      - 2018-10-27-2011 ACM-ICPC Asia Dhaka Regional Contest.md
+      - >-
+        2018-10-30-2015-2016 Petrozavodsk Winter Training Camp, Saratov SU
+        Contest.md
+      - 2018-12-03-概率论与数理统计.md
+      - 2018-12-03-线性代数基础.md
+      - 2018-12-12-CodeForces-1051F.md
+      - '2019-01-19-ZOJ Monthly, January 2019.md'
+      - '2019-01-20-2018-2019 ICPC, NEERC, Southern Subregional Contest.md'
+      - '2019-01-21-2018-2019 ICPC, NEERC, Northern Eurasia Finals.md'
+      - 2019-01-22-2018-2019 Russia Open High School Programming Contest.md
+      - 2019-01-23-2017 ACM-ICPC Asia Tehran Regional Contest.md
+      - 2019-01-24-2018 ICPC Asia Jakarta Regional Contest.md
+      - 2019-01-25-C++语言相关.md
+      - 2019-01-26-高精度.md
+      - 2019-01-27-计算几何.md
+      - 2019-01-28-数学分析.md
+      - 2019-01-29-离散数学.md
+      - 2019-01-30-线性代数.md
+      - 2019-01-31-组合数学.md
+      - 2019-02-01-数论.md
+      - 2019-02-02-图论.md
+      - 2019-02-03-数据结构.md
+      - 2019-02-04-我的算法竞赛模板.md
+      - 2019-02-09-HDU-6278.md
+      - 2019-02-16-Bubble Cup 11 - Finals.md
+      - 2019-02-17-Mail.Ru Cup 2018 Round 3.md
+      - 2019-02-18-HDU-4992.md
+      - 2019-02-18-Mail.Ru Cup 2018 Round 1.md
+      - '2019-02-19-Manthan, Codefest 18.md'
+      - 2019-02-20-Divide by Zero 2018.md
+      - 2019-02-22-Hello 2019.md
+      - 2019-02-26-矩形面积并、矩形面积交、矩形周长并（线段树、扫描线总结）.md
+      - >-
+        2019-03-03-2015-2016 Petrozavodsk Winter Training Camp, Nizhny Novgorod
+        SU Contest.md
+      - 2019-03-05-计算机网络概述.md
+      - 2019-03-06-物理层.md
+      - 2019-03-08-数据链路层.md
+      - >-
+        2019-03-09-2015-2016 Petrozavodsk Winter Training Camp, SPb SU + SPb AU
+        Contest.md
+      - 2019-03-09-介质控制子层.md
+      - >-
+        2019-03-20-2018-2019 ACM-ICPC Southeastern European Regional Programming
+        Contest (SEERC 2018).md
+      - 2019-03-23-ACM-ICPC World Finals 2018.md
+      - 2019-03-31-Northwestern Europe Regional Contest (NWERC) 2018.md
+      - 2019-03-31-中断控制.md
+      - 2019-04-19-系统调用.md
+      - 2019-04-23-Educational Codeforces Round 63 (Rated for Div. 2).md
+      - '2019-04-25-Codeforces Round #554 (Div. 2).md'
+      - >-
+        2019-04-27-The 16th Zhejiang Provincial Collegiate Programming Contest
+        Sponsored by TuSimple.md
+      - '2019-04-30-Codeforces Round #556 (Div. 2).md'
+      - 2019-05-02-Educational Codeforces Round 64 (Rated for Div. 2).md
+      - 2019-05-06-二状态进程模型.md
+      - 2019-05-16-Educational Codeforces Round 65 (Rated for Div. 2).md
+      - 2019-06-02-Codeforces Global Round 3.md
+      - '2019-06-04-Codeforces Round #563 (Div. 2).md'
+      - 2019-06-06-Educational Codeforces Round 66 (Rated for Div. 2).md
+      - '2019-06-11-Codeforces Round #566 (Div. 2).md'
+      - '2019-06-16-Codeforces Round #567 (Div. 2).md'
+      - '2019-06-20-Codeforces Round #568 (Div. 2).md'
+      - 2019-07-13-Educational Codeforces Round 67 (Rated for Div. 2).md
+      - '2019-07-14-Codeforces Round #572 (Div. 2).md'
+      - 2019-07-18-这一年的一点感想.md
+      - 2019-07-19-The 13th Chinese Northeast Collegiate Programming Contest.md
+      - 2019-07-20-ArabellaCPC 2019.md
+      - >-
+        2019-07-22-2013-2014 ACM-ICPC Southwestern Europe Regional Contest
+        (SWERC 13).md
+      - 2019-07-23-2019 Multi-University Training Contest 1.md
+      - '2019-07-31-Codeforces Round #576 (Div. 2).md'
+      - 2019-07-31-HDU-5306.md
+      - 2019-08-10-2019 Multi-University Training Contest 2.md
+      - 2019-08-11-2019 Multi-University Training Contest 3.md
+      - 2019-08-12-300iq Contest 1.md
+      - 2019-08-13-2019 Multi-University Training Contest 4.md
+      - 2019-08-14-2019 Multi-University Training Contest 5.md
+      - 2019-08-15-2019 Multi-University Training Contest 6.md
+      - '2019-08-16-2013 Petrozavodsk, MIPT contest.md'
+      - 2019-08-17-2019 年百度之星·程序设计大赛 - 初赛一.md
+      - 2019-08-19-2019 Multi-University Training Contest 7.md
+      - 2019-08-20-Japan Alumni Group Summer Camp 2015 Day 3.md
+      - 2019-08-21-2016-2017 7th BSUIR Open Programming Contest. Semifinal.md
+      - 2019-08-21-2019 Multi-University Training Contest 8.md
+      - 2019-08-22-2019 Multi-University Training Contest 9.md
+      - 2019-08-23-2019中国大学生程序设计竞赛（CCPC） - 网络选拔赛.md
+      - 2019-08-29-Maze Problem.md
+      - 2019-08-30-高性能计算·实验（一）.md
+      - >-
+        2019-08-31-2018-2019 ACM-ICPC, China Multi-Provincial Collegiate
+        Programming Contest.md
+      - 2019-08-31-2019 年百度之星·程序设计大赛 - 复赛.md
+      - 2019-09-01-The Preliminary Contest for ICPC Asia Nanjing 2019.md
+      - 2019-09-03-数字图像处理·实验一.md
+      - 2019-09-04-计算机图形学·作业（一）.md
+      - 2019-09-05-15-Puzzle Problem.md
+      - 2019-09-06-高性能计算·实验（二）.md
+      - 2019-09-07-The Preliminary Contest for ICPC Asia Xuzhou 2019.md
+      - >-
+        2019-09-08-The 2019 Asia Nanchang First Round Online Programming
+        Contest.md
+      - 2019-09-09-自然语言处理（二）.md
+      - 2019-09-12-15-Othello.md
+      - 2019-09-14-The Preliminary Contest for ICPC Asia Shanghai 2019.md
+      - 2019-09-15-The Preliminary Contest for ICPC Asia Shenyang 2019.md
+      - 2019-09-18-数据库·实验一.md
+      - 2019-09-19-Futoshiki.md
+      - 2019-09-21-2019 Multi-University Training Contest 10.md
+      - 2019-09-22-2015ACM-ICPC亚洲区沈阳站-重现赛（感谢东北大学）.md
+      - 2019-09-23-自然语言处理·作业一.md
+      - 2019-09-26-Pacman.md
+      - 2019-09-26-数字图像处理·实验二.md
+      - 2019-09-28-2019CCPC秦皇岛赛区（重现赛）- 感谢东秦&复旦.md
+      - 2019-09-29-Lab4_1  Pandas 数据分析.md
+      - 2019-09-30-Lab4_2 Matplotlib库实践.md
+      - 2019-09-30-OpenGL 实现简易的星球旋转效果.md
+      - 2019-10-05-2015ACM-ICPC亚洲区上海站-重现赛（感谢华东理工）.md
+      - 2019-10-06-2014ACM-ICPC亚洲区上海站.md
+      - 2019-10-06-高性能计算·实验（三）.md
+      - 2019-10-07-2014ACM-ICPC亚洲区西安站.md
+      - 2019-10-09-Lab 6 kNN应用实践.md
+      - 2019-10-10-高性能计算·实验（四）.md
+      - 2019-10-13-2015ACM-ICPC亚洲区合肥站-重现赛（感谢中科大）.md
+      - 2019-10-16-Lab7 k-Means应用实践.md
+      - 2019-10-16-OpenGL 实现交互式三次 Bezier曲线的构建.md
+      - '2019-10-19-Bubble Cup 12 - Finals [Online Mirror, unrated, Div. 1].md'
+      - '2019-10-20-2018-2019 ACM-ICPC, Asia Nanjing Regional Contest.md'
+      - 2019-10-21-协方差优化.md
+      - 2019-10-23-The 2015 China Collegiate Programming Contest.md
+      - 2019-10-25-在天河二号上跑分！.md
+      - 2019-10-25-稠密矩阵算法实现.md
+      - >-
+        2019-10-26-2016-2017 ACM-ICPC, Central Europe Regional Contest (CERC
+        16).md
+      - 2019-10-26-数字图像处理·实验三.md
+      - 2019-10-26-数据科学与计算机学院“科技论文阅读与写作课” 第1次作业.md
+      - >-
+        2019-10-28-2016-2017 ACM-ICPC Nordic Collegiate Programming Contest
+        (NCPC 2016).md
+      - 2019-10-30-2019中国大学生程序设计竞赛-女生专场（重现赛）-感谢南京晓庄学院.md
+      - 2019-10-31-ACM-ICPC Asia Beijing Regional Contest 2018 Reproduction.md
+      - 2019-11-04-Lab8 Navie Bayes应用实践.md
+      - 2019-11-13-分布式系统期末复习材料整理.md
+      - 2019-11-15-CUDA实验两则.md
+      - 2019-11-16-OpenGL 实现简单的多边形网格数据读取和操作.md
+      - 2019-11-21-Decision Tree.md
+      - 2019-11-21-Planning and Uncertainty.md
+      - 2019-11-23-语言模型与新闻的内容预测.md
+      - 2019-11-28-Naive Bayes.md
+      - 2019-11-29-CUDA矩阵向量乘的多种优化.md
+      - 2019-12-04-Lab11 sklearn中的SVM应用实践.md
+      - 2019-12-05-Expectation Maximization.md
+      - 2019-12-08-taichi库探索.md
+      - 2019-12-09-OpenGL 实现简单的光照效果.md
+      - 2019-12-12-Backpropgation.md
+      - 2019-12-13-CUDA矩阵乘法的优化.md
+      - '2019-12-15-SYSU Novice Programming Contest 2019, Online.md'
+      - 2019-12-16-第十八次CCF计算机软件能力认证.md
+      - 2019-12-19-Reinforcement Learning.md
+      - 2019-12-26-Deep Learning.md
+      - 2020-01-01-数据科学与计算机学院“科技论文阅读与写作课” 第2次作业.md
+      - 2020-01-13-稀疏矩阵乘法.md
+      - 2020-01-13-链表求序.md
+      - 2020-01-14-基于深度学习的中英机器翻译.md
+      - 2020-01-24-今日此时所想之事.md
+      - 2020-02-25-用Shuffle加速CUDA上的Reduce操作.md
+      - 2020-03-16-再谈CUDA上的Reduce操作.md
+      - 2020-10-09-十月九日.md
+      - 2020-10-17-2020 CCF CCSP竞赛（含分赛区竞赛）.md
+      - '2020-11-14-SYSU Collegiate Programming Contest 2020, Online.md'
+      - 2020-11-19-Educational Codeforces Round 98 (Rated for Div. 2).md
+      - '2020-11-21-Codeforces Round #685 (Div. 2).md'
+      - 2021-02-02-年轻人的第一次实习面试.md
+      - 2021-02-11-今日此时所想之事（二）.md
+      - 2021-03-07-osu-micro-benchmarks.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: list
+        name: tags
+        label: Tags
+        items:
+          type: string
+      - type: object
+        name: jekyll-theme-WuK
+        label: Jekyll Theme Wu K
+        fields:
+          - type: markdown
+            name: background_music
+            label: Background Music
+  post_6:
+    type: page
+    label: Post 6
+    folder: _posts
+    match:
+      - 2018-07-03-大作业.md
+      - 2018-07-03-自动生成三位JK卡诺图.md
+      - 2018-07-03-计数、译码、显示综合实验.md
+      - 2018-07-03-计数器的设计.md
+      - 2018-07-03-译码显示电路.md
+      - 2018-08-27-利用MSI设计组合逻辑电路.md
+      - 2018-08-27-组合逻辑电路分析与设计.md
+      - 2018-10-16-分式.md
+      - 2018-10-16-圣杯战争.md
+      - 2018-10-16-某科学的超会议议程管理系统（Scientific Meeting Management System）.md
+      - 2018-10-16-递归练习.md
+      - 2018-10-23-MIPS汇编语言程序设计.md
+      - 2018-10-23-函数程序设计实验三：使用Newton-Raphson方式计算平方根.md
+      - 2018-11-08-列表练习（2）.md
+      - 2018-11-08-字符放大.md
+      - 2018-11-08-打印购物小票.md
+      - 2018-11-14-函数程序设计实验七：石头、剪刀和布.md
+      - 2018-11-14-函数程序设计实验八：模拟随机事件.md
+      - 2018-11-25-检查信用卡号是否合法.md
+      - 2018-11-26-车牌竞价信息处理.md
+      - 2018-12-03-词频统计.md
+      - 2018-12-11-带变量的布尔表达式.md
+      - 2018-12-14-Windows Subsystem for Linux.md
+      - 2018-12-23-多周期CPU设计.md
+      - 2019-01-18-基于Jekyll搭建个人博客.md
+      - 2019-02-06-配置TensorFlow.md
+      - 2019-02-14-前馈神经网络.md
+      - 2019-02-28-HYSBZ-3110.md
+      - 2019-02-28-UVALive-3510.md
+      - 2019-03-01-数据表示实验.md
+      - 2019-03-04-并行与分布式计算（1）.md
+      - 2019-03-06-超级计算机原理与操作（1）.md
+      - 2019-03-11-Echo实验.md
+      - 2019-03-13-裸机控制权与引导程序.md
+      - 2019-03-18-加载用户程序的监控程序.md
+      - 2019-03-19-Chat实验.md
+      - 2019-03-25-Homework 2 MPI编程直方图.md
+      - 2019-03-25-并行与分布式计算（2）.md
+      - 2019-03-28-用汇编与C语言开发独立内核.md
+      - 2019-03-29-计算机网络第四章 介质控制子层.md
+      - 2019-04-01-应用层实验.md
+      - 2019-04-08-MPI并行奇偶交换排序.md
+      - 2019-04-10-Homework 4 计算数组最小值+最大值+平均值的和.md
+      - 2019-04-10-计算机网络第五章 网络层.md
+      - 2019-04-15-实现一个多线程并发访问的队列.md
+      - 2019-04-19-二层交换机实验.md
+      - 2019-04-20-STL整理.md
+      - 2019-04-22-Homework 5-1 寻找矩阵中的最大值和最小值及其坐标.md
+      - 2019-04-22-Homework 5-2 修改程序为不使用reduction.md
+      - 2019-04-29-并行与分布式计算（4）.md
+      - 2019-05-04-VLAN实验.md
+      - 2019-05-05-静态路由实验.md
+      - 2019-05-22-Homework6 向量乘法.md
+      - 2019-05-23-VLAN间路由实验.md
+      - 2019-05-24-RIP配置实验.md
+      - 2019-05-25-文件传输实验.md
+      - 2019-05-26-MPI编程实训.md
+      - 2019-05-27-并行与分布式计算（5）.md
+      - 2019-06-03-Homework 7 关于Canny的SIMD优化练习.md
+      - 2019-06-05-计算机网络第六章 运输层.md
+      - 2019-06-14-OSPF配置实验.md
+      - 2019-06-18-Chord算法研究.md
+      - 2019-06-19-综合组网实验.md
+      - 2019-06-21-EP01.md
+      - 2019-06-22-EP02.md
+      - 2019-07-08-并行与分布式计算复习笔记.md
+      - 2019-07-24-ASC20选拔纪事.md
+      - 2019-08-26-数据库（一）.md
+      - 2019-08-26-计算机图形学（一）.md
+      - 2019-08-27-人工智能（一）.md
+      - 2019-08-27-模式识别（一）.md
+      - 2019-08-28-数据库（二）.md
+      - 2019-08-29-人工智能（二）.md
+      - 2019-08-29-分布式系统（一）.md
+      - 2019-08-29-数字图像基础.md
+      - 2019-09-03-人工智能（三）.md
+      - 2019-09-03-数字图像处理（三）.md
+      - 2019-09-10-人工智能（四）.md
+      - 2019-09-11-分布式系统·作业（一）.md
+      - 2019-09-12-人工智能（五）.md
+      - 2019-09-17-数字图像处理（四）.md
+      - 2019-09-19-人工智能（六）.md
+      - 2019-09-28-RDMA学习笔记.md
+      - 2019-09-29-分布式系统·作业（二）.md
+      - 2019-09-29-模式识别·实验（一）.md
+      - 2019-10-23-远程过程调用训练.md
+      - 2019-11-07-分布式系统·作业四.md
+      - 2019-11-17-图像复原.md
+      - 2019-11-17-形态学处理.md
+      - 2019-11-17-彩色图像处理.md
+      - 2019-11-26-分布式系统·作业五.md
+      - 2019-12-12-分布式系统·作业六.md
+      - 2020-01-02-图像分割.md
+      - 2020-01-03-图像表示和描述.md
+      - 2020-01-18-Markdown写作心得.md
+      - 2020-02-06-个人网站优化之旅.md
+      - 2020-03-03-计算机网络知识点整理.md
+      - 2020-03-07-Happy Birthday Mizuno Ai!.md
+      - 2020-03-26-搭建自己的GitLab.md
+      - 2020-04-20-软件工程理论与实践（一）.md
+      - 2020-04-22-软件工程理论与实践（二）.md
+      - 2020-04-25-编译原理（一）.md
+      - 2020-04-26-软件工程理论与实践（三）.md
+      - 2020-04-27-软件工程理论与实践（四）.md
+      - 2020-04-28-编译原理（二）.md
+      - 2020-04-28-词法分析.md
+      - 2020-04-29-软件工程理论与实践（五）.md
+      - 2020-05-06-软件工程理论与实践（六）.md
+      - 2020-05-09-编译原理（三）.md
+      - 2020-05-11-软件工程理论与实践（七）.md
+      - 2020-05-14-使用词法分析器 Flex 提取程序中的整数和浮点数.md
+      - 2020-05-14-编译原理（四）.md
+      - 2020-05-20-软件工程理论与实践（八）.md
+      - 2020-05-26-编译原理（五）.md
+      - 2020-05-26-语法分析.md
+      - 2020-06-03-使用模拟退火和遗传算法求解 TSP 问题.md
+      - 2020-06-03-使用深度学习做文本情感分类.md
+      - 2020-06-03-编译原理（七）.md
+      - 2020-06-03-编译原理（六）.md
+      - 2020-06-07-图注意力网络.md
+      - 2020-06-16-使用 CUDA 优化二维信息熵求解.md
+      - 2020-06-16-编译原理（八）.md
+      - 2020-07-03-正则表达式关系判定.md
+      - 2020-07-07-使用 CUDA 优化 KNN 求解.md
+      - 2020-07-07-编译原理（九）.md
+      - 2020-07-07-编译原理（十）.md
+      - 2020-07-29-使用蚁群算法求解 TSP 问题.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: tags
+        label: Tags
+      - type: list
+        name: EP01
+        label: EP 01
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+            - type: string
+              name: value
+              label: Value
+      - type: list
+        name: EP02
+        label: EP 02
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+            - type: string
+              name: value
+              label: Value
+  post_7:
+    type: page
+    label: Post 7
+    folder: _posts
+    match:
+      - 2018-11-23-单周期CPU设计.md
+      - 2019-05-28-并行与分布式计算（6）.md
+      - 2019-06-17-并行与分布式计算（7）.md
+    fields: []
+  post_8:
+    type: page
+    label: Post 8
+    folder: _posts
+    match:
+      - 2019-06-23-EP03.md
+      - 2019-06-24-EP04.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: tags
+        label: Tags
+      - type: list
+        name: EP03
+        label: EP 03
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+      - type: list
+        name: EP04
+        label: EP 04
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+  post_9:
+    type: page
+    label: Post 9
+    folder: _posts
+    match:
+      - 2019-06-25-EP05.md
+      - 2019-06-26-EP06.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: tags
+        label: Tags
+      - type: list
+        name: EP05
+        label: EP 05
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+      - type: list
+        name: EP06
+        label: EP 06
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+  post_10:
+    type: page
+    label: Post 10
+    folder: _posts
+    match:
+      - 2019-06-27-EP07.md
+      - 2019-06-28-EP08.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: tags
+        label: Tags
+      - type: list
+        name: EP07
+        label: EP 07
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+      - type: list
+        name: EP08
+        label: EP 08
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+  post_11:
+    type: page
+    label: Post 11
+    folder: _posts
+    match:
+      - 2019-06-29-EP09.md
+      - 2019-06-30-EP10.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: tags
+        label: Tags
+      - type: list
+        name: EP09
+        label: EP 09
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+      - type: list
+        name: EP10
+        label: EP 10
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+  post_12:
+    type: page
+    label: Post 12
+    folder: _posts
+    match:
+      - 2019-07-01-EP11.md
+      - 2019-07-02-EP12.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: tags
+        label: Tags
+      - type: list
+        name: EP11
+        label: EP 11
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+      - type: list
+        name: EP12
+        label: EP 12
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+  post_13:
+    type: page
+    label: Post 13
+    folder: _posts
+    match:
+      - 2019-07-03-ED+OP+PV.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: tags
+        label: Tags
+      - type: list
+        name: ED
+        label: ED
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+            - type: string
+              name: value
+              label: Value
+      - type: list
+        name: OP
+        label: OP
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+            - type: string
+              name: value
+              label: Value
+      - type: list
+        name: PV
+        label: PV
+        items:
+          type: object
+          fields:
+            - type: number
+              name: key
+              label: Key
+              subtype: int
+            - type: string
+              name: value
+              label: Value
+  post_14:
+    type: page
+    label: Post 14
+    folder: _posts
+    match:
+      - 2019-09-26-Family.md
+      - 2019-10-10-Quries.md
+      - 2019-10-15-游戏数据分析.md
+      - 2019-10-17-FF planner.md
+      - 2019-10-24-BoxMan.md
+      - 2019-11-07-Bayesian Network.md
+      - 2019-11-14-Variable Elimination.md
+      - 2019-12-22-针对FGO的自动化测试实践.md
+      - 2020-03-04-去掉github仓库的fork标记.md
+      - 2020-03-21-解决 VSCode@1.43.1 & remote-ssh@0.50.1 中 ProxyJump 失败的问题.md
+      - 2021-03-14-HPL-AI.md
+      - 2021-03-21-华为昇腾910使用初探.md
+      - 2021-05-11-量子线路模拟器QuEST在多GPU平台上的性能优化.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: list
+        name: categoreis
+        label: Categoreis
+        items:
+          type: string
+  post_15:
+    type: page
+    label: Post 15
+    folder: _posts
+    match:
+      - 2019-12-10-数图期末Project.md
+      - 2020-10-04-推免答辩.md
+      - '2020-11-29-SYSU Collegiate Programming Contest 2020, Onsite.md'
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: tags
+        label: Tags
+      - type: string
+        name: layout
+        label: Layout
